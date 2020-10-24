@@ -1,0 +1,13 @@
+<body>
+  <form [formGroup]="userLoginForm" (ngSubmit)="userLogin()" novalidate>
+    <div class="box">
+      <h1>Dashboard</h1>
+      <input type="text" placeholder="username" name="username" id="username" formControlName="email" class="email" />
+      <input type="password" placeholder="password" name="password" id="password" formControlName="password"
+        class="email" />
+      <button type="submit" class="btn" id="Submit">Sign In</button>
+    </div> <!-- End Box -->
+  </form>
+  <p>Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>
+
+</body>

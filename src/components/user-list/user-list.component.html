@@ -1,0 +1,6 @@
+<div class="chat_window">
+  <ul id="messages" class="userlist">
+    <li *ngFor="let user of userList" (click)="moveToChat(user)">{{user.username}}</li>
+  </ul>
+</div>
+
